@@ -7,7 +7,7 @@ print("How many test scores would you like to average?")
 howMany=int(input(''))
 while howManyEntered<howMany:
     print("Enter test score:")
-    testScore=int(input(''))
+    testScore=float(input(''))
     total=total+testScore
     howManyEntered+=1
 average=total/howMany
